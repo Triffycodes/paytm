@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 
 mongoose.connect(process.env.MONGO_DB_URI);
 
+
 const userSchema = mongoose.Schema({
     username: String,
     password: String,
